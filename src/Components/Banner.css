@@ -1,0 +1,52 @@
+.Banner{
+    position: relative;
+}
+
+.ImageHouse>img{
+    width: 100%;
+    top: 0;
+    right: 0;
+}
+
+.fade{
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    top: 20%;
+    left: 20%;
+    background: rgba(52, 58, 64, 0.7);
+    z-index: 1;
+    align-self: center;
+}
+
+.Banner_info{
+    position: absolute;
+    top: 50%;
+    margin: -75px auto 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    color: #fff;
+    width: 500px;
+    text-align: center;
+}
+
+.Banner_text{
+    left: 15px;
+    position: relative;
+}
+
+.Button_Banner{
+    background-color: #ff7779;
+    color: white;
+    text-transform: inherit;
+    border: none;
+    border-radius: 2rem;
+    padding: 8px 8px;
+    left: 20px;
+}
+
+.Button_Banner:hover{
+    background-color: white;
+    color: #ff7779;
+}

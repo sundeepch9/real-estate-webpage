@@ -1,0 +1,53 @@
+.Realtor{
+    /* max-width: 1140px; */
+    margin: 4rem 0 6rem;
+    padding: 0 0 6rem;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    background: lightblue;
+
+}
+
+.Realtor>h2{
+    text-align: center;
+}
+
+.large-paragraph{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 4rem;
+}
+
+.Agents{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.card{
+    width: 32%;
+    background: #f0f0f0;
+    margin-bottom: 2rem;
+    box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+    transition: transform 100ms ease-in;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.card:hover{
+    transform: scale(1.07);
+}
+
+.card>img{
+    width: 100%;
+}
+
+.card>h3{
+    color: #000;
+    padding-left: 1rem;
+}
+
+.card>p{
+    padding-left: 1rem;
+}
